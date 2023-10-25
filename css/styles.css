@@ -67,6 +67,8 @@ ul {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
     position: relative;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .nav-conteiner {
     display: flex;
@@ -109,9 +111,9 @@ ul {
     padding: 24px 0;
     transition-property: color;
     transition-duration: 250ms;
-    transition-timing-function: (0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio::after {
+.menu-position::after {
     position: absolute;
     content: '';
     display: block;
@@ -121,7 +123,13 @@ ul {
     border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
-    top: 68px;
+    top: 20px;
+    left: 0;
+    bottom: -1px;
+}
+.menu-position {
+    position: relative;
+    color: #404bbf;
 }
 
 .nav-link:hover,
@@ -139,7 +147,7 @@ ul {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: color 250ms (0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link:hover,
@@ -162,6 +170,7 @@ ul {
     background-position: center;
     background-size: cover;
     padding: 188px 0;
+    max-width: 1440px;
 }
 .hero-container {
     flex-direction: column;
@@ -199,7 +208,7 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
-    transition: background-color 250ms (0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -229,6 +238,7 @@ ul {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 .adv-title {
     color: #2e2f42;
@@ -355,6 +365,7 @@ ul {
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: (0.4, 0, 0.2, 1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
