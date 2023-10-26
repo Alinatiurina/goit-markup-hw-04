@@ -109,6 +109,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+
     transition-property: color;
     transition-duration: 250ms;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -123,7 +124,7 @@ ul {
     border-radius: 2px;
     margin-left: auto;
     margin-right: auto;
-    top: 20px;
+
     left: 0;
     bottom: -1px;
 }
@@ -171,6 +172,8 @@ ul {
     background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .hero-container {
     flex-direction: column;
@@ -430,6 +433,7 @@ ul {
 .footer-section {
     display: flex;
     gap: 120px;
+    align-items: baseline;
 }
 .nav-logo {
     display: inline-block;
