@@ -166,7 +166,7 @@ ul {
     flex-shrink: 0;
     background-color: #2e2f42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url(/images/hero/hero-image.jpg);
+        url(../images/hero/hero-image.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -382,7 +382,7 @@ ul {
     position: relative;
     overflow: hidden;
 }
-.box:hover .overlay {
+.portfolio-item:hover .overlay {
     transform: translateX(0);
 }
 .overlay {
@@ -440,7 +440,6 @@ ul {
 }
 .footer-section {
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 .nav-logo {
@@ -472,7 +471,6 @@ ul {
     letter-spacing: 0.02em;
     margin-top: 17.5px;
     max-width: 264px;
-    margin-bottom: 16px;
 }
 .footer-social-list {
     display: flex;
@@ -488,7 +486,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
 }
 .footer-list-link-container {
     display: flex;
