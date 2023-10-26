@@ -480,13 +480,15 @@ ul {
 }
 .footer-logo-container {
     flex-direction: column;
+    margin-right: 120px;
 }
 .footer-social-text {
-    color: #f4f4fd;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 .footer-list-link-container {
     display: flex;
